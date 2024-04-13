@@ -1,0 +1,139 @@
+/* Tablet & Mobile */
+@media only screen and (max-width: 1023px) {
+  .button {
+    padding: 16px 16px;
+  }
+  #nav .subnav a {
+    padding: 5px 12px;
+  }
+  #content .about-text {
+    padding: 0 16px;
+  }
+  #content .member-list {
+    padding: 0 40px;
+  }
+  #content .member-list div:last-child {
+    margin-bottom: 112px;
+  }
+  #content .member-item {
+    width: 50%;
+  }
+  #content .contact-info {
+    line-height: 2.7;
+  }
+  #content .contact-input-control {
+    padding: 16px;
+  }
+  #footer .social-list {
+    line-height: 40px;
+    font-size: 48px;
+  }
+  #footer .social-list a {
+    margin: 0 8px;
+  }
+  #footer .copyright a {
+    margin-top: 10px;
+    padding: 12px 0;
+    display: inline-block;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+  #content .member-img {
+    margin-bottom: 25px; ;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+  .s-col-full {
+    width: 100%;
+  }
+  .s-mt-8 {
+    margin-top: 8px;
+  }
+  .button {
+    width: 100%;
+    padding: 12px 70px;
+    text-align: center;
+    border-radius: 0%;
+  }
+
+  #slider {
+    margin-top: 50px;
+  }
+  #nav {
+    display: block;
+  }
+  #nav .subnav {
+    position: initial;
+  }
+  #nav .subnav a {
+    padding: 5px 40px;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav li a {
+    padding: 1px 24px;
+    width: 100%;
+    text-align: start;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #header .search-button {
+    display: none;
+  }
+  #header .mobile-menu-button {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #content .member-list {
+    padding: 0 16px;
+  }
+
+  #content .member-img {
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+  #content .tickets-list {
+    margin: 0px 16px;
+  }
+  #content .address-item {
+    width: 100%;
+    padding: 0px 24px;
+    padding-bottom: 16px;
+  }
+  #content .address-text {
+    overflow-y: initial;
+    height: auto;
+  }
+  #content .contact-input {
+    margin-top: 32px;
+  }
+  #content .contact-content {
+    padding: 0 16px;
+  }
+}
+/* Smaller Mobile */
+@media only screen and (max-width: 490px) {
+  #content .member-item {
+    width: 100%;
+  }
+  
+  #footer .social-list a {
+    width: 15%;
+    display: inline-block;
+  }
+  #footer .copyright {
+    margin-top: 30px;
+  }
+}
